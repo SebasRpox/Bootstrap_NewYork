@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo Nueva York - La guía de Nueva York</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="shortcut icon" href="https://www.turismonuevayork.com/img/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="../images/logo.png" class="d-inline-block align-top" alt="" loading="lazy"></a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="navbar-nav text-center align-items-center">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="#products">Productos</a>
+        <a class="nav-item nav-link" href="#prices">Precios</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+    <img src="" alt="">
+    <div class="btn-header text-center">
+      <a href="#card-best" class="btn btn-dark">Nuestra mejor oferta!</a>
+    </div>
+  </header>
+  <section class="container-form row">
+    <div class="col-6">
+      <div class="container mt-5">
+        <form>
+          <div class="form-group row">
+            <label for="exampleInputEmail1" class="col-2">Email</label>
+            <input type="email" placeholder="Escribe tu email aquí" class="form-control col-10" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="form-group row">
+            <label for="exampleInputPassword1" class="col-2">Contraseña</label>
+            <input type="password" placeholder="Digita la contraseña" class="form-control col-10"
+              id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">¿Aceptas nuestros términos?</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="form-img">
+      <img src="../images/times-square.jpg" alt="">
+    </div>
+  </section>
+  <section id="products" class="container mt-5 pt-5">
+    <div class="card-deck">
+      <div class="card">
+        <img src="../images/mapa-de-los-distritos-de-nueva-york.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mapa de Nueva York</h5>
+          <p class="card-text">Podrás ver los distritos y barrios más populares de Nueva York</p>
+          <button type="button" class="btn btn-link">Más Info.</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/Taxis-en-NY-1024x683.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Transporte en Nueva York</h5>
+          <p class="card-text">Exiten diferentes formas para llegar a Nueva York y para desplazarte dentro de el</p>
+          <button type="button" class="btn btn-link">Más Info.</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/113745063-1024x768.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Estaciones del año en Nueva York</h5>
+          <p class="card-text">Nueva York cuenta con las 4 estaciones; primavera, verano, invierno y otoño</p>
+          <p class="card-text"><small class="text-muted">Escoge el tiempo adecuado!</small></p>
+        </div>
+      </div>
+    </div>
+  </section class="group-btn">
+  <div class="group-btn__list ml-5 mt-5 text-center">
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Verano
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="#">Junio + Fiestas y eventos en Junio</a>
+        <a class="dropdown-item" href="#">Julio + Fiestas y eventos en Julio</a>
+        <a class="dropdown-item" href="#">Agosto + Fiestas y eventos en Agosto</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Primavera
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+        <a class="dropdown-item" href="#">Marzo + Fiestas y eventos en Marzo</a>
+        <a class="dropdown-item" href="#">Abril + Fiestas y eventos en Abril</a>
+        <a class="dropdown-item" href="#">Mayo + Fiestas y eventos en Mayo</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Otoño
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+        <a class="dropdown-item" href="#">Septiembre + Fiestas y eventos en Septiembre</a>
+        <a class="dropdown-item" href="#">Octubre + Fiestas y eventos en Octubre</a>
+        <a class="dropdown-item" href="#">Noviembre + Fiestas y eventos en Noviembre</a>
+      </div>
+    </div>
+    <div class="btn-group">
+
+      <button id="btnGroupDrop4" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Invierno
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+        <a class="dropdown-item" href="#">Diciembre + Fiestas y eventos en Diciembre</a>
+        <a class="dropdown-item" href="#">Enero + Fiestas y eventos en Enero</a>
+        <a class="dropdown-item" href="#">Febrero + Fiestas y eventos en Febrero</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="group-list row mt-3 pt-2">
+      <ul class="list-group col-4 ">
+        <li class="list-group-item active bg-dark text-white">Información básica</li>
+        <li class="list-group-item">Bandera de Nueva York</li>
+        <li class="list-group-item">Escudo de Nueva York</li>
+        <li class="list-group-item">Documentación necesaria para ingresar a Estados Unidos</li>
+        <li class="list-group-item">Clima</li>
+        <li class="list-group-item">Geografía de Nueva York</li>
+        <li class="list-group-item">Demografía de Nueva York</li>
+        <li class="list-group-item">Economía</li>
+        <li class="list-group-item">La ciudad de Nueva York</li>
+        <li class="list-group-item">Teléfonos de importancia en Nueva York</li>
+      </ul>
+      <ul class="list-group col-4 ">
+        <li class="list-group-item active bg-dark text-white">Estilo de vida</li>
+        <li class="list-group-item">Cultura</li>
+        <li class="list-group-item">Idioma</li>
+        <li class="list-group-item">Deporte en Nueva York</li>
+        <li class="list-group-item">Dinero</li>
+        <li class="list-group-item">Compras</li>
+        <li class="list-group-item">Propinas e impuestos</li>
+        <li class="list-group-item">Vida nocturna</li>
+        <li class="list-group-item">Alojamiento</li>
+        <li class="list-group-item">Seguridad</li>
+        <li class="list-group-item">Noruega</li>
+      </ul>
+      <ul class="list-group col-4 ">
+        <li class="list-group-item active bg-dark text-white">Conociendo la ciudad</li>
+        <li class="list-group-item">El turismo en Nueva York</li>
+        <li class="list-group-item">Tours por Nueva York</li>
+        <li class="list-group-item">Teléfono e internet</li>
+        <li class="list-group-item">Asistencia médica y sanitaria: Seguro médico</li>
+        <li class="list-group-item">Edificios y arquitectura de la ciudad</li>
+        <li class="list-group-item">Comer y beber en Nueva York</li>
+        <li class="list-group-item">Desplazarse por Nueva York</li>
+        <li class="list-group-item">Mapa del Metro de Nueva York</li>
+        <li class="list-group-item">Hoteles en Nueva York</li>
+        <li class="list-group-item">Restaurantes en Manhattan</li>
+      </ul>
+    </div>
+  </div>
+  <header class="table__title mt-5 pt-5">Distritos de Nueva York</header>
+  <div class="container">
+    <div class="table-elements mt-3">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Distrito</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Manhattan</td>
+            <td>Esta isla ubicada en el Río Hudson, cuenta con cerca de 1.562.723 habitantes. Comprende no sólo la isla
+              misma sino también un gran número de pequeñas islas y una pequeña parte continental. Conocida mundialmente
+              por ser la cuna del edificio Empire State y el Central Park.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Brooklyn</td>
+            <td>Es uno de los cinco barrios más poblados de la ciudad de Nueva York. El origen de su nombre proviene de
+              la ciudad holandesa de Breukelen, y debido a la existencia de un pequeño pantano, característica común a
+              ambos sitios (broek o breuk: pantano; más el sufijo diminutivo neerlandés elen), de manera que su nombre
+              significa pequeño pantano.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Queens</td>
+            <td>El condado de Queens es el distrito de mayor tamaño y también el más diverso étnicamente en los Estados
+              Unidos. La cabecera de Queens se encuentra en el vecindario de Jamaica. Conocido por ser el lugar de
+              nacimiento del Jazz, así como del rap urbano nacido hace algunos años.</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>El Bronx</td>
+            <td>Fue fundada en memoria de Jonas Bronck, el primer inmigrante sueco en habitar la zona. Es la única
+              comuna que no forma parte de una isla y se ubica al norte de la ciudad. Las atracciones del Bronx incluyen
+              el Estadio de los New York Yankees, y el Zoológico del Bronx, el Jardín Botánico de Nueva York.</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Staten Island</td>
+            <td>Con un territorio extendido incluso con el del Condado de Richmond. Fue recién en el año 1975 -a
+              instancias del Ayuntamiento- cuando tomó el nombre de Staten Island ya que hasta entonces tanto el condado
+              como el distrito se llamaban Richmond. Staten Island viene de los holandeses en la época de su
+              colonización.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <header class="cases-popular__title mt-5 pt-5">Lo más destacado</header>
+  <section class="cases-popular ml-5 mr-5">
+    <div class="card mb-3">
+      <div class="cases-popular__img">
+        <img id="card-best" src="../images/Central-Park-Manhattan.jpg" class="card-img-top img-fluid"
+          alt="Central-Park-Manhattan">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Central Park</h5>
+        <p class="card-text">Situado en la Ciudad de Nueva York, en el barrio de Manhattan, nos encontramos con un
+          espacio urbano verde de recreación pública llamado Central Park o Parque Central en español.
+          Es uno de los parques más bellos y famosos del mundo, y debido a su hermoso paisaje ha sido el escenario de
+          muchos filmes y programas de televisión. También es el elegido por las inmigraciones de aves que a su vez
+          atrae a una inmensa cantidad de observadores de pájaros.</p>
+        <p class="card-text"><small class="text-muted">También existen diversos paises, esculturas y animales. Vive la
+            experiencia ahora!</small></p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="cases-popular__img2 img-fluid">
+        <img src="../images/catedral-san-patricio.jpg" class="card-img-top img-fluid" alt="...">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sitios turísticos en Nueva York</h5>
+        <p class="card-text">La ciudad de Nueva York, a lo largo del tiempo se ha convertido en uno de los lugares
+          turísticos más importantes del mundo por contar con diversos atractivos, entre los que destacan son los museos
+          y los monumentos. <br> <br> No es extraño saber que los sitios turísticos en Nueva York son los lugares más
+          frecuentados por los turistas.</p>
+        <button type="button" class="btn btn-link">Más Info.</button>
+      </div>
+    </div>
+  </section>
+
+  <header class="prices__title mb-3 pt-5">Excursiones</header>
+  <div class="prices ml-5 mb-3 d-flex justify-content-around">
+    <div class="card" style="width: 18rem;">
+      <img id="prices" src="../images/Washington-d-c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Excursión a Washington en español saliendo de Nueva York</h5>
+        <p class="card-text">¿Qué ver y hacer en esta tremenda aventura turística en Washington? Sin duda, gozar de sus
+          plazas, calles, monumentos, y todos sus impresionantes lugares turísticos.</p>
+        <a href="#" class="btn btn-primary bg-info text-white">Desde USD$124</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../images/Boston-portada-1024x762.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¡Excursión a Boston en español saliendo de Nueva York!</h5>
+        <p class="card-text">¿Qué ver y qué hacer en Boston? Boston es una de los lugares con mucha historia y ambiente.
+          A solo unas cuatro horas de Nueva York (en coche) te encontrarás con esta ciudad más colonial y europea de los
+          Estados Unidos.</p>
+        <a href="#" class="btn btn-primary bg-info text-white">Desde USD$134</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="jumbotron bg-dark text-white rounded-0">
+    <div class="container">
+      <h1 class="display-4 text-center">Descarga nuestra app!!</h1>
+      <div class="jumbotron-img text-center">
+        <img src="../images/app.png" alt="">
+      </div>
+      <hr class="my-4">
+      <div class="d-flex justify-content-between  align-items-center">
+        <p>Con ella podrás realizar acciones mucho más fácil y rápido!</p>
+        <a href="https://play.google.com/store/apps/details?id=com.ulmon.android.playnewyork&hl=es_419"><img
+            src="../images/download-app-turismo.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <footer class="ml-3 pb-2">
+      <div class="icons d-flex">
+        <div class="icons1 pt-2 d-flex">
+          <img src="../images/facebook.png" alt="">
+          <img src="../images/instagram (1).png" alt="">
+        </div>
+        <div class="icons2 d-flex pt-2">
+          <img src="../images/paypal.png" alt="">
+          <img src="../images/youtube.png" alt="">
+        </div>
+      </div>
+      Todos los derechos reservados. Web by Sebas Restrepo. <br> Recomendamos usar una resolución de pantalla de 1024 x
+      768. Para mayor compatibilidad, utilizar Internet Explorer 9 (o superiores), Google Chrome o Mozilla Firefox.
+      <br>
+      <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a
+          href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
